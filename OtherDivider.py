@@ -1,0 +1,5 @@
+Number1 = int(input("Give two numbers, and the first will be divided by the second:"))
+Number2 = int(input("Second number:"))
+Answer_Whole = int(Number1 / Number2)
+Answer_Remainder = int(Number1 % Number2)
+print("Your answer is: " + str(Number1) + "/" + str(Number2) + " = " + str(Answer_Whole) + " Reamainder:" + str(Answer_Remainder))
